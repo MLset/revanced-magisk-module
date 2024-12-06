@@ -1,3 +1,4 @@
+GooglePhotos: 7.10.0.703144258  
 Music: 7.29.51  
 Reddit: 2024.17.0  
 Soundcloud: 2024.11.20-release  
