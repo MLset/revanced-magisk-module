@@ -1,20 +1,20 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1
-
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
-
-[Music]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-arch = "arm64-v8a"
+[Instagram]
+apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram/"
+included-patches = "'Hide ads' 'Anonymous story viewing' 'Remove build expired popup' 'Sanitize sharing links'"
+exclusive-patches = true
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
 
+[Twitch]
+apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
+
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+
+[Music]
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
 
 [GooglePhotos]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/photos/"
