@@ -1,6 +1,10 @@
-Music: 8.10.52  
-GooglePhotos: 7.60.0.859276722  
+Google-Photos: 7.60.0.859276722  
+Instagram: 401.0.0.48.79  
+Reddit: 2026.04.0  
+SoundCloud: 2025.05.27-release  
+TikTok: 36.5.4  
 YouTube: 20.14.43  
+YouTube-Music: 8.10.52  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
