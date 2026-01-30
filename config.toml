@@ -1,12 +1,7 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true
 parallel-jobs = 1
 
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
-
-# YouTube con patch Morphe (alternativa avanzata a ReVanced)
+# YouTube con patch Morphe
 [YouTube-Morphe]
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
@@ -22,10 +17,6 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 patches-source = "MorpheApp/morphe-patches"
 integrations-source = "MorpheApp/morphe-integrations"
 
-[Reddit]
-apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
-uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-
 [Google-Photos]
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
@@ -33,10 +24,14 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Instagram]
 arch = "arm64-v8a"
-version = "401.0.0.48.79"
 included-patches = "'Hide ads' 'Anonymous story viewing' 'Open links externally'"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram"
+
+# Reddit - senza versione specificata (auto-seleziona)
+[Reddit]
+apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit"
+uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [TikTok]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok"
@@ -46,7 +41,7 @@ uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/soundcloud/soundcloud-soundcloud"
 uptodown-dlurl = "http://soundcloud.en.uptodown.com/android"
 
-# X/Twitter con patch Piko (da crimera)
+# X/Twitter con patch Piko
 [X-piko]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
