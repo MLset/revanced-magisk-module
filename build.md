@@ -1,6 +1,5 @@
-Google-Photos: 7.60.0.859276722  
-Instagram: 401.0.0.48.79  
-Reddit: 2026.04.0  
+Google-Photos: 7.61.0.860908034  
+Instagram: 414.0.0.40.83  
 SoundCloud: 2025.05.27-release  
 TikTok: 36.5.4  
 YouTube: 20.14.43  
