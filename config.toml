@@ -11,4 +11,4 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/"
 uptodown-dlurl = "https://duolingo.en.uptodown.com/android"
 
 [Duolingo.patch-options]
-"Enable Premium" = { Type = "MAX" }
+"Enable Premium" = { Type = "Duolingo MAX" }
